@@ -21,6 +21,10 @@ body {
     color: #fff;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 
 header .container {
@@ -47,6 +51,8 @@ header nav a {
 header nav a:hover {
     color: #fff;
 }
+
+
 
 /*FILME PRINCIPAL */
 
@@ -125,21 +131,57 @@ header nav a:hover {
 }
 
 footer {
-    height: 400px;
+    height: 200px;
 
 }
 
-.bloco-1 {
+.container-footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+
 }
 
-.bloco-1 .redes {
+.items-footer {
+    margin-top: 30px;
+    width: 1000px;
+    height: 200px;
+}
+
+.redes {
     display: flex;
 }
 
-.icon i {
+.redes .icon {
     margin-right: 15px;
     font-size: 20px;
+}
+
+
+
+.blocos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 35px;
+}   
+
+.infos a{
+    font-size: 13px;
+    color: grey;
+}
+
+.infos a:hover{
+    color: white;
+}
+
+.redes a{
+    color: white;
+}
+
+.copy {
+    margin-top: 15px;
+    font-size: 13px;
+    color: grey;
 }
